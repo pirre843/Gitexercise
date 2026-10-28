@@ -2,14 +2,11 @@ package se.iths.pierre.github.model;
 
 public class Game {
 
-    private String name;
+    private String title;
     private int ageLimit;
 
-    @Override
-    public String toString() {
-        return "Game{" +
-                "name='" + name + '\'' +
-                ", ageLimit=" + ageLimit +
-                '}';
+    public Game(String title, int ageLimit) {
+        this.title = title;
+        this.ageLimit = ageLimit;
     }
 }
