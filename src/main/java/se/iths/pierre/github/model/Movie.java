@@ -5,11 +5,11 @@ public class Movie {
     String title;
     int releaseYear;
 
-    @Override
-    public String toString() {
-        return "Movie{" +
-                "title='" + title + '\'' +
-                ", releaseYear=" + releaseYear +
-                '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Movie{" +
+//                "title='" + title + '\'' +
+//                ", releaseYear=" + releaseYear +
+//                '}';
+//    }
 }
