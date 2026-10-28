@@ -3,7 +3,7 @@ package se.iths.pierre.github.model;
 public class Game {
 
     private String name;
-    int ageLimit;
+    private int ageLimit;
 
     @Override
     public String toString() {
