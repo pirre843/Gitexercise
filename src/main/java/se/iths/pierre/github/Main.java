@@ -1,17 +1,13 @@
 package se.iths.pierre.github;
 
-import se.iths.pierre.github.model.Animal;
-import se.iths.pierre.github.model.Car;
-import se.iths.pierre.github.model.City;
-import se.iths.pierre.github.model.Book;
-import se.iths.pierre.github.model.Movie;
+import se.iths.pierre.github.model.*;
 
 public class Main {
     static void main() {
-        Car car1 = new Car("Volvo","V90");
-        Car car2 = new Car("VW","Passat");
+        Car car1 = new Car("Volvo", "V90");
+        Car car2 = new Car("VW", "Passat");
 
-        Animal animal1 = new Animal("Apa","chinpans");
+        Animal animal1 = new Animal("Apa", "chinpans");
         Animal animal2 = new Animal("Katt", "Bondkatt");
 
         City city1 = new City("London", 100000);
@@ -25,11 +21,7 @@ public class Main {
 
         IO.println(city1);
         IO.println(city2);
-        Book book1 = new Book();
-        Book book2 = new Book();
 
-        Movie movie = new Movie();
-        Movie movie2 = new Movie();
 
         Book book1 = new Book("Volvo", "Pelle Karlsson");
         Book book2 = new Book("Volkswagen", "Kalle Persson");
@@ -37,15 +29,16 @@ public class Main {
         IO.println(book2);
 
 
-        Movie movie = new Movie("Skräck", "2006");
-        Movie movie2 = new Movie("komedi", "2010");
-        IO.println(movie);
-        IO.println(movie2);
+        Movie movie3 = new Movie("Skräck", 2006);
+        Movie movie4 = new Movie("komedi", 2010);
+        IO.println(movie3);
+        IO.println(movie4);
 
-        Game game = new Game("Fps", "18");
-        Game game1 = new Game("Sport", "15");
-        IO.println(game);
-        IO.println(game1);
+        Game game4 = new Game("Fps", 18);
+        Game game5 = new Game("Sport", 15);
+        IO.println(game4);
+        IO.println(game5);
+
 
     }
 
