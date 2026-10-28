@@ -2,6 +2,15 @@ package se.iths.pierre.github.model;
 
 public class Book {
 
-    String title;
-    String author;
+
+    private String title;
+    private String author;
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                '}';
+    }
 }
